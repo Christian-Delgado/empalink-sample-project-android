@@ -1,27 +1,27 @@
-# EmpaLink Sample Project
+# Ejemplo de proyecto EmpaLink
 
-## Introduction
+## Introducción
 
-This sample project gives you the boilerplate code you need to connect to an Empatica E4 device and start streaming data.
+Este proyecto de muestra le brinda el código de repetición que necesita para conectarse a un dispositivo Empatica E4 y comenzar a transmitir datos.
 
-The sample application implemented in the project has very simple functionalities:
+La aplicación de muestra implementada en el proyecto tiene funcionalidades muy simples:
 
-- It initializes the EmpaLink library with your API key.
-- If the previous step is successful, it starts scanning for Empatica devices, till it finds one that can be used with the API key you inserted in the code.
-- When such a device has been found, the app connects to the devices and streams data for 10 seconds, then it disconnects.
+- Inicializa la librería EmpaLink con tu clave API.
+- Si el paso anterior es exitoso, comienza a escanear los dispositivos Empatica, hasta que encuentra uno que se puede usar con la clave API que insertó en el código.
+- Cuando se encuentra un dispositivo de este tipo, la aplicación se conecta a los dispositivos y transmite los datos durante 10 segundos, luego se desconecta.
 
-## Setup
+## Configuración
 
-- Clone / download this repository.
-- Open the sample project in Android Studio.
-- Make sure you have a valid API key. You can request one for your Empatica Connect account from our [Developer Area][1].
-- Edit `MainActivity.java` and assign your API key to the `EMPATICA_API_KEY` constant .
-- Download the Android SDK from our [Developer Area][1].
-- Unzip the archive you've downloaded and copy the `.aar` file you'll find inside into the `libs` folder contained in the sample project.
-- Build and run the project.
-- If a device is in range and its light is blinking green, but the app doesn't connect, please check that the discovered device can be used with your API key. If the `allowed` parameter is always false, the device is not linked to your API key. Please check your [Developer Area][1].
+- Clonar / descargar este repositorio.
+- Abra el proyecto de muestra en Android Studio.
+- Asegúrate de tener una clave API válida. Puede solicitar una para su cuenta de Empatica Connect en nuestro [Área de desarrolladores] [1].
+- Edite `MainActivity.java` y asigne su clave API a la constante` EMPATICA_API_KEY`.
+- Descargue el SDK de Android desde nuestro [Área de desarrolladores] [1].
+- Descomprima el archivo que ha descargado y copie el archivo `.aar` que encontrará en la carpeta` libs` contenida en el proyecto de muestra.
+- Construye y ejecuta el proyecto.
+- Si un dispositivo está dentro del alcance y su luz parpadea en verde, pero la aplicación no se conecta, verifique que el dispositivo descubierto se pueda usar con su clave API. Si el parámetro `allowed` siempre es falso, el dispositivo no está vinculado a su clave API. Por favor revise su [Área de desarrolladores] [1].
 
-If you need any additional information about the Empatica API for Android, please check the [official documentation][2].
+Si necesita información adicional sobre la API de Empatica para Android, consulte la [documentación oficial] [2].
 
 [1]: https://www.empatica.com/connect/developer.php
 [2]: http://developer.empatica.com
