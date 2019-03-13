@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Este proyecto de muestra le brinda el código de repetición que necesita para conectarse a un dispositivo Empatica E4 y comenzar a transmitir datos.
+Este proyecto de muestra le brinda el código que necesita para conectarse a un dispositivo Empatica E4 y comenzar a transmitir datos.
 
 La aplicación de muestra implementada en el proyecto tiene funcionalidades muy simples:
 
@@ -14,9 +14,9 @@ La aplicación de muestra implementada en el proyecto tiene funcionalidades muy 
 
 - Clonar / descargar este repositorio.
 - Abra el proyecto de muestra en Android Studio.
-- Asegúrate de tener una clave API válida. Puede solicitar una para su cuenta de Empatica Connect en nuestro [Área de desarrolladores] [1].
+- Asegúrate de tener una clave API válida. Puede solicitar una para su cuenta de Empatica Connect en nuestra [Área de desarrolladores] [1].
 - Edite `MainActivity.java` y asigne su clave API a la constante` EMPATICA_API_KEY`.
-- Descargue el SDK de Android desde nuestro [Área de desarrolladores] [1].
+- Descargue el SDK de Android desde nuestra [Área de desarrolladores] [1].
 - Descomprima el archivo que ha descargado y copie el archivo `.aar` que encontrará en la carpeta` libs` contenida en el proyecto de muestra.
 - Construye y ejecuta el proyecto.
 - Si un dispositivo está dentro del alcance y su luz parpadea en verde, pero la aplicación no se conecta, verifique que el dispositivo descubierto se pueda usar con su clave API. Si el parámetro `allowed` siempre es falso, el dispositivo no está vinculado a su clave API. Por favor revise su [Área de desarrolladores] [1].
